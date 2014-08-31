@@ -1,0 +1,5 @@
+how_much.to_i.to_s == much_input
+check if input is integer
+
+bear_moved = false
+while true

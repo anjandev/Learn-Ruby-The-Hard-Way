@@ -1,0 +1,101 @@
+# Prints a string of text for user comprehension. New line at end of output
+puts
+
+#String. No new line at end of output.
+print
+
+# Places string of text inside for user. Allows other strings to be placed inside.
+# Like world_type = 'Mars'
+ # puts "You are on #{world_type}"
+""
+
+#
+# Comments out text so that it is only seen in text reader
+
+# Less than equal
+<=
+
+# Greater than egual
+>=
+
+# Intergrates a string into a string defined before.
+#{}
+
+
+Unit 8
+
+# Starts new line while printing on same line
+\n
+
+# Write paragraphs
+"""
+
+# Tells ruby to cancel the next "" so it continues string
+\" or \'
+
+# Tab in
+\t
+
+# new line split
+\
+
+# add a backslash
+\\
+
+# fsfs
+#
+# fdsf
+\r
+
+# women symbol
+\f
+
+# male symbol
+\v
+# ex10
+
+# insert user input
+x = gets.chomp
+
+# convert to interger. Can be added to variables as well as gets.chomp
+.to_i
+
+# convert to fraction
+.to_f
+
+# Unpacks variables in command line enter
+ARGV
+
+# Reads file and user otherwise
+gets.chomp
+
+# gets user only
+$stdin.gets.chomp
+
+# Opens a file. Puts it in the tape player
+open()
+
+# add ".read" to end of a file variable to read it
+txt = open(filename)
+print txt.read
+
+# Deletes file
+.truncate()
+
+# permission
+open (filename, 'r/w')
+
+# Tells how big (bytes) the file is
+(Filename).length
+
+# Closes file
+(filename).close
+
+# Check if file exists
+File.exist?(File_variable)
+
+# Writes variable
+.write(variable)
+
+# Defines argument
+def
